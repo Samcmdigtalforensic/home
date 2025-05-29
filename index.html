@@ -171,6 +171,79 @@
       background: #00ffcc;
       color: #000;
     }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .logo {
+    margin-left: 0;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo img {
+    height: 80px;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .logo h1 {
+    font-size: 1.2rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-right: 0;
+    padding: 10px 0;
+  }
+
+  nav a {
+    display: block;
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .hero {
+    padding: 40px 15px;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
+
+  .class-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .class-card {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  img[alt="QR Code for Enrollment"] {
+    width: 150px;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+}
+
+    
   </style>
 </head>
 <body>
